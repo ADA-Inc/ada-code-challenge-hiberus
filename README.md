@@ -71,7 +71,7 @@ Aggregate services:
 
 The following diagram shows the architecture of the Architecture overview of a CQRS based Axon application.
 
-image::./images/axon_Architecture.png[]
+image::./images/axon_Architecture.png
 
 The application consists of three services:
 
