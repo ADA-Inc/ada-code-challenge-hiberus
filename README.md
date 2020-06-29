@@ -70,8 +70,7 @@ Aggregate services:
 === Architecture
 
 The following diagram shows the architecture of the Architecture overview of a CQRS based Axon application.
-
-image::./images/axon_Architecture.png
+![Architecture overview](https://github.com/ADA-Inc/ada-code-challenge-hiberus/blob/master/images/axon_Architecture.png)
 
 The application consists of three services:
 
