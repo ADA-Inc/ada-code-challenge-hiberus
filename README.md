@@ -9,7 +9,7 @@ For this reference, I chose to create a simple example domain with a high degree
 The application consists of two services:
 
 * `checkout-service` - creates orders and Orchestration-based saga to triggered bill-service to sum orders and logistic-service create a sent orderer
-* `bill-service` - manages bill sum products order´s
+* `bill-service` - manages bill sum products orderÂ´s
 * `logistic-service` - manages logistic-service
  
 
@@ -126,8 +126,8 @@ If the containers aren't accessible via `localhost` - e.g. you are using Docker 
 Once the application has started, you can use the application via the Swagger UI:
 
 * `Order Service` - `http://localhost:8081/swagger-ui.html`
-* `Customer Service` - `http://localhost:8089/swagger-ui.html`
-* `logistic Service` - `http://localhost:8082/swagger-ui.html`
+* `Bill service` - `http://localhost:8089/swagger-ui.html`
+* `Logistic Service` - `http://localhost:8082/swagger-ui.html`
 
 You can also use `curl` to interact with the services.
 First, let's create a customer:
